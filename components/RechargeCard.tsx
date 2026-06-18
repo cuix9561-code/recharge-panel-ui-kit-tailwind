@@ -85,9 +85,10 @@ export function RechargeCard({
               className={`
                 relative w-full p-4 rounded-xl text-left transition-all duration-200
                 ${isSelected
-                  ? 'bg-gradient-to-r from-emerald-900/60 to-slate-800 border-2 border-emerald-500 shadow-lg shadow-emerald-500/10'
-                  : 'bg-slate-800/60 border-2 border-slate-700/50 hover:border-slate-500 hover:bg-slate-800'
+                  ? 'bg-gradient-to-r from-emerald-900/60 to-slate-800 border-2 border-emerald-500 shadow-lg shadow-emerald-500/10 scale-[1.02]'
+                  : 'bg-slate-800/60 border-2 border-slate-700/50 hover:border-slate-500 hover:bg-slate-800 hover:scale-[1.01] hover:shadow-lg hover:shadow-black/20'
                 }
+                active:scale-[0.99]
               `}
             >
               {/* Popular Badge */}
