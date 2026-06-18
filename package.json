@@ -1,0 +1,39 @@
+{
+  "name": "recharge-panel-ui-kit-tailwind",
+  "version": "1.0.0",
+  "description": "A premium recharge/payment panel UI kit for React/Next.js — Lemon Squeezy-inspired checkout cards for indie developers",
+  "private": false,
+  "keywords": [
+    "react",
+    "nextjs",
+    "tailwindcss",
+    "recharge",
+    "payment",
+    "ui-components",
+    "lemon-squeezy"
+  ],
+  "homepage": "https://github.com/cuix9561-code/recharge-panel-ui-kit-tailwind#readme",
+  "bugs": {
+    "url": "https://github.com/cuix9561-code/recharge-panel-ui-kit-tailwind/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mark Cui",
+    "email": "cuix9561@gmail.com",
+    "url": "https://github.com/cuix9561-code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuix9561-code/recharge-panel-ui-kit-tailwind.git"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}
