@@ -49,13 +49,13 @@ export function PaymentFAQAccordion({
             <button
               type="button"
               onClick={() => toggle(item.id)}
-              className="w-full flex items-center justify-between py-4 text-left"
+              className="w-full flex items-center justify-between py-4 text-left active:scale-[0.98] transition-all"
             >
               <span className="text-sm font-medium text-slate-200 hover:text-emerald-400 transition-colors">
                 {item.question}
               </span>
               <svg
-                className={`w-5 h-5 text-slate-500 transition-transform duration-300 ${
+                className={`w-5 h-5 text-slate-500 transition-transform duration-300 ease-out ${
                   isOpen ? 'rotate-180' : ''
                 }`}
                 fill="none"
